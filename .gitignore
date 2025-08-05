@@ -1,0 +1,30 @@
+# === Node.js / React ===
+node_modules/
+build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env*
+logs/
+*.log
+
+# === OS Files ===
+.DS_Store
+Thumbs.db
+
+# === IDE Files ===
+.vscode/
+.idea/
+
+# === .NET / C# ===
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# === Include backend folder explicitly ===
+!backend/**
